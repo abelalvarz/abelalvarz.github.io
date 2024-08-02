@@ -1,0 +1,134 @@
+.project-page {
+    width: 100%;
+    color: #fff;
+    background-color: #02050b;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+.header-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.project-page h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.project-box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.box-header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    text-align: center;
+
+}
+
+.box-header h3 {
+    font-size: 2rem;
+    margin: 0 0 1rem 0;
+}
+
+.project-box-link {
+    margin-top: 1rem;
+}
+
+.project-box-link a {
+    color: #fff;
+    background-color: #302d2d;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.project-box-link a:hover {
+    background-color: #c5b3b3;
+}
+
+.box-image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.box-image-container img {
+    width: 100%;
+    max-width: 40rem;
+    height: auto;
+    border-radius: 5px;
+    transition: .5s;
+
+}
+.box-image-container img:hover{
+    transform: scale(1.100);
+    transition: .5s;
+}
+@media (min-width: 768px) {
+    .header-page {
+        height: 100px;
+    }
+
+    .project-page h1 {
+        font-size: 3rem;
+    }
+
+    .project-box {
+        flex-direction: row;
+    }
+
+    .box-image-container {
+        width: 50%;
+        
+    }
+
+    .box-header h3 {
+        font-size: 2.5rem;
+    }
+    .box-header  {
+        width: 50%;
+        padding: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .project-page h1 {
+        font-size: 4rem;
+    }
+
+    .box-header h3 {
+        font-size: 3rem;
+    }
+    .box-header{
+        text-align: left;
+        padding-left: 7%;
+    }
+
+    .project-box-link a {
+        padding: 0.75rem 1.5rem;
+    }
+}

@@ -1,0 +1,11 @@
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.page-container {
+    width: 100%;
+    background-color: #302d2d;
+    display: flex;
+    align-items: center;
+}
